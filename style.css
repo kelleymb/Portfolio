@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;  
+}
+
+body {
+    font-family: 'merriweather';
+}
+
+nav {
+    text-align: center;
+    font-size: larger;
+}
+
+h2 {
+    text-align: left;
+}
+
+img {
+    max-width: 400px;
+    height: auto;
+    margin: 10px auto 20px;
+    display: block;
+}
+
+.aboutme, h3, .contactinfo {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.projecttitle, .projectdescription, .technologies, .projectbutton {
+    text-align: center;
+}
