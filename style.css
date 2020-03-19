@@ -1,32 +1,54 @@
 * {
-    box-sizing: border-box;  
+    box-sizing: border-box;
+    text-align: center;  
+    margin: 0;
 }
 
 body {
-    font-family: 'merriweather';
+    font-family: sans-serif;
 }
 
 nav {
-    text-align: center;
+    /* text-align: center; */
     font-size: larger;
+    background-color: #aaa;
+    min-height: 80px;
+    font-size: 25px;
 }
 
-h2 {
+header {
+    min-height: 150px;
+}
+
+section {
+    background-color: #bbb;
+    min-height: 200px;
+}
+
+section:nth-child(even), footer {
+    background-color: #ddd;
+}
+
+footer {
+    min-height: 100px;
+}
+
+/* h2 {
     text-align: left;
-}
+} */
 
-img {
+/* img {
     max-width: 400px;
     height: auto;
     margin: 10px auto 20px;
     display: block;
-}
+} */
 
-.aboutme, h3, .contactinfo {
+/* .aboutme, h3, .contactinfo {
     text-align: left;
     margin-left: 30px;
-}
+} */
 
-.projecttitle, .projectdescription, .technologies, .projectbutton {
+/* .projecttitle, .projectdescription, .technologies, .projectbutton {
     text-align: center;
-}
+} */
