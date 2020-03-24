@@ -7,42 +7,49 @@
     <title>Kelley M Buccieri</title>
 </head>
 <body>
-    <nav role="navigation">
-        Nav
-        <!-- <a href="#aboutme">Kelley M. Buccieri</a>
-        <a href="#projects">Projects</a>
-        <a href="#contactme">Contact Me</a> -->
+    <nav role="navigation" class="navbar">
+        <!-- Nav -->
+        <a class="navitem" href="#aboutme">About Me</a>
+        <a class="navitem" href="#projects">Projects</a>
+        <a class="navitem" href="#contactme">Contact Me</a>
     </nav>
     <main role="main">
         <header role="banner">
-            <h1>Hero</h1>
-            <!-- <h2 role="headline">Hello world, my name is Kelley! I am a proud Full Stack Developer.</h2> -->
+            <!-- <h1>Hero</h1> -->
+            <h1 class="headline" role="headline">Hello world, my name is Kelley!<br>I am a proud Full Stack Developer.</h1>
         </header>
-        <section>
-            <h2>About Me</h2>
-            <!-- <p class="aboutme">Born and raised in Connecticut, I am a recent graduate from Thinkful's Full Stack Engineering program. With a background in Management Information Systems from Western Connecticut State University, I have the continuing desire to always improve and increase my knowledge!</p>
+        <section >
+            <h2 id="aboutme">About Me</h2>
+            <p class="aboutme">Born and raised in Connecticut, I am a recent graduate from Thinkful's Full Stack Engineering program. With a background in Management Information Systems from Western Connecticut State University, I have the continuing desire to always improve and increase my knowledge! </p>
             <p class="aboutme">This field is both engaging and challenging, and I love it. There is no greater feeling than the moment when all of your hardwork pays off and you've created something pretty amazing! With great teamwork and communication there is nothing that can't be done.</p>
-            <p class="aboutme">Outside of professional duties, I love to read, write, listen to music, be introduced to great shows and movies, and I love to play good game of RISK!</p> -->
+            <p class="aboutme">Outside of professional duties, I love to read, write, listen to music, be introduced to great shows and movies, and I love to play good game of Risk!</p>
         </section>
-        <section>
-            <h2>Projects</h2>
-            <!-- <p class="projecttitle">Greek Mythology Quiz App</p>
-            <p class="projectdescription">Test your knowledge of the 12 main Olympians!</p>
-            <img src="Greek-Mythology-Quiz-App-MainScreen.gif.png" alt="GreekQuizAppScreenshot">
-            <p class="technologies">Technologies Used: HTML, CSS, JavaScript, & jQuery.</p>
-            <form class="projectbutton">
-                <input  type="button" value="Live">
-                <input  type="button" value="Repo"> -->
-            </form>
+        <section >
+            <h2 id="projects">Projects</h2>
+                <section class="quizapp">
+                    <h3 class="quizprojecttitle">Greek Mythology Quiz App</h3>
+                    <h4 class="projectdescription">Test your knowledge of the 12 main Olympians!</h4>
+                    <img src="Greek-Mythology-Quiz-App-MainScreen.gif.png" alt="GreekQuizAppScreenshot">
+                    <p class="technologies">Technologies Used: HTML, CSS, JavaScript, & jQuery.</p>
+                    <section class="projectbuttons">
+                        <a class="projectbutton" href="https://kelleymb.github.io/quiz-app/" target="_blank">Live</a>
+                        <a class="projectbutton" href="https://github.com/kelleymb/quiz-app" target="_blank">Repo</a>
+                    </section>
+                </section>
         </section>
     </main>
-    <footer role="contact-information">
-        <h2>Contact Me</h2>
-        <!-- <h3 class="contactinfo">Kelley M. Buccieri</h3>
-        <p class="contactinfo">I'd love to hear from you!&nbsp;<a href="mailto: kelleybuccieri@gmail.com"><br>Send me an email</a><br>
-            <input type="button" value="GitHub">
-            <input type="button" value="LinkedIn">
-        </p> -->
+    <footer role="contact-information" >
+        <h2 id="contactme">Contact Me</h2>
+        <h3>Kelley M. Buccieri</h3>
+        <p class="contactinfo">I'd love to hear from you!&nbsp;<a class="sendemaillink" href="mailto: kelleybuccieri@gmail.com">Send me an email</a><br></p>
+        <section class="contactbuttons">
+            <a class="contactbutton" href="https://github.com/kelleymb" target="_blank">GitHub</a>
+            <!-- <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="kelley-buccieri"><a class="LI-simple-link" href='https://www.linkedin.com/in/kelley-buccieri?trk=profile-badge'>Kelley Buccieri</a></div> -->
+            <a class="contactbutton" href="https://www.linkedin.com/in/kelley-buccieri" target="_blank">LinkedIn</a>
+        </section>
     </footer>
+    <!-- <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="index.js"></script>
 </body>
 </html>

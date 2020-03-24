@@ -1,54 +1,182 @@
 * {
+    /* wireframe css */  
+    /* margin: 0; */
     box-sizing: border-box;
-    text-align: center;  
-    margin: 0;
-}
+    text-align: center;
+    color: black;
+    
+} 
 
 body {
-    font-family: sans-serif;
+    font-family: 'Oswald';
+    /* padding-top: 40px; */
 }
 
-nav {
-    /* text-align: center; */
-    font-size: larger;
+main {
+    padding: 40px;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    width: 100%;
+    min-height: 60px;
+    overflow: hidden;
+    color: pink;
+    font-size: 20px;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* nav {
+    wireframe css
     background-color: #aaa;
-    min-height: 80px;
-    font-size: 25px;
+} */
+
+.navitem {
+    font-size: 24px;
+    padding: 15px;
+    color: pink;
 }
 
-header {
-    min-height: 150px;
+a:hover {
+    font-size: 24px;
+    font-weight: bold;
+    color: purple;
+}
+
+.projectbutton:hover, .contactbutton:hover {
+    font-size: 22px;
+    background-color: lightgray; 
+}
+
+.headline {
+    font-size: 28px;
+    line-height: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 section {
-    background-color: #bbb;
-    min-height: 200px;
-}
-
-section:nth-child(even), footer {
-    background-color: #ddd;
-}
-
-footer {
-    min-height: 100px;
-}
-
-/* h2 {
+    /* wireframe css */
+    /* background-color: #bbb; */
     text-align: left;
-} */
+}
 
-/* img {
-    max-width: 400px;
+h2 {
+    min-height: 80px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    line-height: 20px;
+    font-size: 26px;
+    background-color: black;
+    opacity: 85%;
+    color: pink;
+}
+
+h3 {
+    line-height: 20px;
+}
+
+.aboutme {
+    margin: 0;
+    padding: 20px;
+    text-align: left;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.quizprojecttitle {
+    font-size: 20px;
+}
+
+.projectdescription {
+    font-size: 18px;
+}
+
+img {
+    max-width: 300px;
     height: auto;
     margin: 10px auto 20px;
-    display: block;
-} */
+    display: block; 
+} 
 
-/* .aboutme, h3, .contactinfo {
-    text-align: left;
-    margin-left: 30px;
-} */
+.technologies {
+    line-height: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
 
-/* .projecttitle, .projectdescription, .technologies, .projectbutton {
+/* wireframe css */
+/* section:nth-child(even), footer {
+/* background-color: #ddd; 
+}  */
+
+footer {
+    max-height: 150px;;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.projectbuttons, .contactbuttons {
     text-align: center;
+}
+
+.contactinfo {
+    margin: 30px;
+}
+
+.contactbuttons {
+    min-height: 80px;
+}
+
+.projectbutton, .contactbutton {
+    font-size: 18px;
+    text-decoration: none;
+    border: 2px solid #253F66;    
+    padding: 5px;
+    margin: 5px;
+} 
+
+.sendemaillink:hover {
+    font-size: 22px;
+}
+
+/* LinkedIn profile badge*/
+/* .LI-profile-badge {
+    margin: 25px;
 } */
+
+@media screen and (min-width: 320px) {
+    
+    .aboutme {
+        text-align: left;
+        margin: 0;
+        padding-left: 25px;
+    } 
+
+}
+
+@media screen and (min-width: 550px) {
+    
+    .aboutme {
+        margin-left: 25px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+
+@media screen and (min-width: 750px) {
+
+    .aboutme {
+        margin-right: 25px;
+    }
+
+
+}
