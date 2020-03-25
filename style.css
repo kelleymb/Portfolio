@@ -1,6 +1,4 @@
 * {
-    /* wireframe css */  
-    /* margin: 0; */
     box-sizing: border-box;
     text-align: center;
     color: black;
@@ -9,7 +7,6 @@
 
 body {
     font-family: 'Oswald';
-    /* padding-top: 40px; */
 }
 
 main {
@@ -23,33 +20,27 @@ main {
     width: 100%;
     min-height: 60px;
     overflow: hidden;
-    color: pink;
     font-size: 20px;
     background-color: black;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-/* nav {
-    wireframe css
-    background-color: #aaa;
-} */
-
 .navitem {
     font-size: 24px;
     padding: 15px;
-    color: pink;
+    color: #e75480;
 }
 
 a:hover {
     font-size: 24px;
     font-weight: bold;
-    color: purple;
+    color: pink;
 }
 
 .projectbutton:hover, .contactbutton:hover {
     font-size: 22px;
-    background-color: lightgray; 
+    background-color: black; 
 }
 
 .headline {
@@ -60,20 +51,17 @@ a:hover {
 }
 
 section {
-    /* wireframe css */
-    /* background-color: #bbb; */
     text-align: left;
 }
 
 h2 {
-    min-height: 80px;
+    min-height: 40px;
     padding-top: 30px;
     padding-bottom: 20px;
     line-height: 20px;
     font-size: 26px;
     background-color: black;
-    opacity: 85%;
-    color: pink;
+    color: #e75480;
 }
 
 h3 {
@@ -97,7 +85,7 @@ h3 {
 }
 
 img {
-    max-width: 300px;
+    /* max-width: 300px; */
     height: auto;
     margin: 10px auto 20px;
     display: block; 
@@ -108,11 +96,6 @@ img {
     font-size: 20px;
     padding: 10px;
 }
-
-/* wireframe css */
-/* section:nth-child(even), footer {
-/* background-color: #ddd; 
-}  */
 
 footer {
     max-height: 150px;;
@@ -142,6 +125,7 @@ footer {
 
 .sendemaillink:hover {
     font-size: 22px;
+    background-color: black;
 }
 
 /* LinkedIn profile badge*/
@@ -154,22 +138,46 @@ footer {
     .aboutme {
         text-align: left;
         margin: 0;
-        padding-left: 25px;
+        /* padding-left: 25px; */
     } 
+
+    h2 {
+        min-height: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    header {
+        min-height: 20px;
+        margin-top: 80px;
+        margin-bottom: 5px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 500px) {
     
     .aboutme {
         margin-left: 25px;
     }
 
-    img {
-        max-width: 100%;
-        height: auto;
+    h2 {
+        min-height: 80px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        line-height: 20px;
     }
 
+    img {
+        max-width: 550px;
+    }
 }
 
 @media screen and (min-width: 750px) {
@@ -178,5 +186,7 @@ footer {
         margin-right: 25px;
     }
 
-
+    img {
+        max-width: 600px;
+    }
 }
